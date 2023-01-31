@@ -1,21 +1,15 @@
-on:
-  push:
-    paths:
-      - 'doc/**'
+Team 1
+Joseph Padilla
+Jaime Mancilla
+Vince Gnodle
 
-name: CreatePDFs
+We have selected the veterinary clinic management system for our class project. Our system will include the following features:
 
-jobs:
-  makepdfs:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-    - uses: mkrakowitzer/actions-makepdfs@master
-      if: github.ref == 'refs/heads/master'
-      with:
-        markdown_dir: doc
-        output_dir: tmp
-    - uses: actions/upload-artifact@v1
-      with:
-        name: platform-architecture-docs
-        path: tmp
+1) Patient Registry - to include pictures of owner and dog. 
+2) Treatment History - spot for Dr notes and prescribed medications (maybe have refill reminders?)
+3) Appointments Scheduled
+4) Billing History - might be able to roll this into treatment history since they are inherently linked. 
+5) Ability to upload documents
+6) Ability to print
+7) Maybe some way to track the animals currently being held at the office? ex: Dog A gets checked in and goes to kennel 5. Then gets moved to surgery
+    and then gets moved to kennel 7 for recovery.
