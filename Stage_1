@@ -5,11 +5,16 @@ Vince Gnodle
 
 We have selected the veterinary clinic management system for our class project. Our system will include the following features:
 
-1) Patient Registry - to include pictures of owner and dog. 
+1) Patient Registry - to include pictures of owner and dog (Animal?). 
+   Can search for owner or pet?
 2) Treatment History - spot for Dr notes and prescribed medications (maybe have refill reminders?)
+   Inventory of medications on hand?
+   List of procedures available w/prices?
 3) Appointments Scheduled
 4) Billing History - might be able to roll this into treatment history since they are inherently linked. 
 5) Ability to upload documents
 6) Ability to print
+   Ability to add/delete patients
 7) Maybe some way to track the animals currently being held at the office? ex: Dog A gets checked in and goes to kennel 5. Then gets moved to surgery
     and then gets moved to kennel 7 for recovery.
+Employee data base (Names, Id numbers, wages)?
