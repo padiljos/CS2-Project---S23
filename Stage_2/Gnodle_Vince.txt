@@ -1,0 +1,2 @@
+1. Created all classes, instance variables, methods and interactions.
+2. Created all class diagrams
