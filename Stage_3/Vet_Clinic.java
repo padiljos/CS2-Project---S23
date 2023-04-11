@@ -150,7 +150,7 @@ public class Vet_Clinic {
                 case 2: System.out.print("You chose 2, Employee Menu\n");
                 employee_menu(clinic);break;  //proceeds to employees menu
                 
-                case 3: System.out.print("You chose to quit, goodbye!\n");break;
+                case 3: System.out.print("You chose to quit, goodbye!\n");main_menu(clinic);break;
                 
                 default: System.out.printf("You selected %d\nInvalid option\n~~~~~~~~~~~~~~\n", choice);break;
             }
