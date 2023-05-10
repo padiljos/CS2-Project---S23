@@ -1,1 +1,2 @@
-
+Work completed by Vince Gnodle
+1. Created all classes, files, and main program.
